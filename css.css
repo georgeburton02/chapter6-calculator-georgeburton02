@@ -1,0 +1,17 @@
+/* Add custom styles here if needed */
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
