@@ -14,6 +14,16 @@
     <div class="calculator">
       <input type="text" id="display" class="form-control" disabled>
       <div class="buttons">
+        <button onclick="appendToDisplay('sqrt(')">√</button>
+        <button onclick="squareRoot()">√</button>
+        <button onclick="appendToDisplay('^2')">x²</button>
+        <button onclick="exponentiation()">x²</button>
+        <button onclick="appendToDisplay('log(')">log</button>
+        <button onclick="logarithm()">log</button>
+        <button onclick="appendToDisplay('!')">!</button>
+        <button onclick="factorial()">!</button>
+        <button class="btn btn-secondary" onclick="appendToDisplay('(')">(</button>
+        <button class="btn btn-secondary" onclick="appendToDisplay(')')">)</button>
         <button class="btn btn-secondary" onclick="appendToDisplay('7')">7</button>
         <button class="btn btn-secondary" onclick="appendToDisplay('8')">8</button>
         <button class="btn btn-secondary" onclick="appendToDisplay('9')">9</button>
